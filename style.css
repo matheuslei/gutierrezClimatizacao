@@ -211,7 +211,7 @@ section#marcas .logos {
   gap: 30px;
 }
 
-section#contato {
+section #contato {
   display: flex;
   align-items: center;
   align-content: center;
