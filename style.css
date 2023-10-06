@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff;
+}
+
+header {
+  background-color: #32609e;
+  height: 4.6rem;
+}
+
+header #navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 4.6rem;
+}
+
+header #navbar .nav-brand {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Berkshire Swash", cursive;
+  color: #fff;
+}
+
+header #navbar .nav-brand img {
+  height: 30px;
+}
+
+header #navbar .nav-brand span {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 12px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  font-weight: 500;
+}
+
+header #navbar .nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+header #navbar .nav-list .nav-item a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header #navbar .nav-list .nav-item a:hover {
+  transition: color 0.3s;
+  color: #777;
+}
+
+main #gelo-bg {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 0;
+}
+
+main #banner {
+  display: flex;
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+  margin-top: -150px;
+  justify-content: space-between;
+}
+
+main #banner .banner-content .banner-content-title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 40px;
+  color: #222121;
+}
+
+main #banner .banner-content .banner-content-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 500px;
+  margin-bottom: 38px;
+}
+
+main #banner .banner-content .banner-content-btn {
+  background-color: #32609e;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 0.8rem 2rem;
+  color: #fff;
+  border: none;
+  margin-bottom: 340px;
+}
+
+main #banner .banner-content .banner-content-btn:hover {
+  transition: 0.3s;
+  background-color: #2571cf;
+  cursor: pointer;
+}
+
+main #banner .banner-image {
+  height: 160px;
+  margin-top: 160px;
+}
+
+section#banner .banner-content .banner-content-title {
+  display: block;
+  font-weight: 100;
+  color: #fff;
+  background-color: #32609e;
+  border-radius: 8px;
+  padding-left: 20px;
+  margin-right: 250px;
+  font-family: "Berkshire Swash", cursive;
+}
+
+section#banner .banner-content .banner-content-title span {
+  display: block;
+  margin-top: -25px;
+  margin-left: 4.6rem;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+section#banner .banner-content .banner-content-title img {
+  height: 40px;
+}
+
+section#posts {
+  display: flex;
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+section#posts .posts-content .posts-content-header #services {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 2rem 0 2rem;
+}
+
+section#posts .posts-content .post-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+section#posts .posts-content .post-cards .post-card img {
+  width: 560px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+section#posts .posts-content .post-cards .post-card h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1rem 0rem;
+}
+
+section#marcas {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+section#marcas h2 {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+section#marcas .logos {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding-left: 100px;
+  gap: 30px;
+}
+
+section#contato {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+section#contato div h2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+section#contato div h3 {
+  display: flex;
+  justify-content: center;
+}
+
+section#contato div h3 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  padding: 20px;
+}
+
+section#contato div h3 p img {
+  padding-right: 10px;
+}
+
+footer {
+  display: flex;
+  background-color: #32609e;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+footer #footer {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 3rem;
+  justify-content: space-between;
+}
+
+footer #footer p a {
+  color: #fff;
+  font-weight: 600;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+
+  header #navbar {
+    padding: 0 1rem;
+  }
+
+  header #navbar .nav-brand {
+    font-size: 1.2rem;
+  }
+
+  header #navbar .nav-list {
+    gap: 1rem;
+  }
+
+  main #gelo-bg {
+    width: 100%;
+  }
+
+  main #banner {
+    padding: 0 1rem;
+    display: grid;
+  }
+
+  main #banner .banner-content {
+    display: block;
+  }
+
+  main #banner .banner-content .banner-content-title {
+    width: 240px;
+  }
+
+  main #banner .banner-content .banner-content-title span {
+    padding-right: 20px;
+  }
+
+  main #banner .banner-content .banner-content-subtitle {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  main #banner .banner-content .banner-content-btn {
+    font-size: 16px;
+    padding: 0.6rem 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  main #banner .banner-image {
+    margin-top: 80px;
+  }
+
+  section#posts {
+    padding: 0 1rem;
+  }
+
+  section#posts .posts-content .post-cards {
+    grid-template-columns: 1fr;
+  }
+
+  section#posts .posts-content .post-cards .post-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  section#marcas {
+    padding: 0 1rem;
+  }
+
+  section#marcas .logos {
+    padding-left: 0;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding-bottom: 40px;
+  }
+
+  section#contato {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 670px) {
+  main #banner .banner-content .banner-content-title {
+    display: none;
+  }
+
+  main #banner .banner-content-subtitle {
+    width: 100%;
+    margin: 200px 0;
+    max-width: 400px;
+  }
+
+  main #banner .banner-content .banner-content-btn {
+    margin-bottom: 200px;
+  }
+
+  main #banner .banner-image {
+    display: none;
+  }
+
+  footer #footer {
+    margin: 10px 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  header #navbar .menu-hamburguer {
+    display: block;
+  }
+
+  section#marcas .logos {
+    padding-left: 0;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    font-weight: 400;
+  }
+
+  section#contato {
+    padding-bottom: 20px;
+  }
+
+  footer #footer {
+    margin: 10px 20px;
+  }
+}
