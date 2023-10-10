@@ -265,19 +265,6 @@ footer #footer p a {
   font-weight: 600;
 }
 
-#navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-list {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
 @media (max-width: 1200px) {
   body {
     font-size: 14px;
@@ -387,22 +374,15 @@ footer #footer p a {
 }
 
 @media (max-width: 500px) {
-  header #navbar .menu-hamburguer {
-    display: block;
-  }
-
-  section#marcas .logos {
-    padding-left: 0;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    font-weight: 400;
-  }
-
-  section#contato {
-    padding-bottom: 20px;
-  }
-
-  footer #footer {
-    margin: 10px 20px;
+  .nav-list {
+    display: none;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    top: 70px;
+    left: 0;
+    padding-left: 15px;
+    background-color: #32609e;
   }
 }
