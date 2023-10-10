@@ -385,4 +385,10 @@ footer #footer p a {
     padding-left: 15px;
     background-color: #32609e;
   }
+  section#marcas .logos {
+    padding-left: 0;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-bottom: 40px;
+  }
 }
